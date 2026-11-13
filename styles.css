@@ -15,14 +15,3 @@
 .identity img{width:237px;height:auto;aspect-ratio:195/180;object-fit:contain;object-position:top center;margin-left:16px;margin-top:0;filter:none}
 @media(max-width:1250px){.identity img{width:190px;height:auto;margin-left:10px}}
 @media(max-width:800px){.identity img{width:100px;height:auto;margin-left:0}}
-
-.slide.altar{background-image:url("assets/altar.jpg");background-position:center}
-.arrow{color:#13a0cc;background:#081b2cbb;border:1px solid #728191;font-size:25px}
-.arrow:hover{background:#081b2c}
-.slide-dots{position:absolute;bottom:15px;left:50%;transform:translateX(-50%);display:flex;gap:10px;z-index:2}
-.slide-dots button{width:12px;height:12px;border-radius:50%;border:1px solid white;background:#ffffff77;cursor:pointer}
-.slide-dots button.selected{background:white}
-.home-panels{display:grid;grid-template-columns:repeat(3,1fr);gap:3px;background:#e7edf2;padding:3px}
-.home-panels .panel{background:white;min-height:240px;text-align:center;padding:45px 20px}
-.home-panels .panel h2{font:38px Georgia,serif;color:#315575}
-@media(max-width:800px){.home-panels{grid-template-columns:1fr}.home-panels .panel{min-height:170px}}
